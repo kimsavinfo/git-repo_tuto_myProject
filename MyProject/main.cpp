@@ -8,7 +8,15 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    for(int iNumber = 1; iNumber <= 100; iNumber++) {
+        std::string text = "";
+        
+        if(text.size() == 0) {
+            text = std::to_string(iNumber);
+        }
+        
+        std::cout << text << std::endl;
+    }
+    
     return 0;
 }
