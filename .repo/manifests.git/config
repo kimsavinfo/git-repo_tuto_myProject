@@ -1,0 +1,36 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/kimsavinfo/git-repo_tuto_main_manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "default"]
+	remote = origin
+	merge = refs/heads/main
+[repo "syncstate.main"]
+	synctime = 2021-08-18T15:12:43.144681Z
+	version = 1
+[repo "syncstate.sys"]
+	argv = ['/Users/kim/Documents/gitHins/git-repo_tuto/myProject/.repo/repo/main.py', '--repo-dir=/Users/kim/Documents/gitHins/git-repo_tuto/myProject/.repo', '--wrapper-version=2.15', '--wrapper-path=/usr/local/bin/repo', '--', 'sync']
+[repo "syncstate.superproject"]
+	superproject = false
+	haslocalmanifests = true
+[repo "syncstate.options"]
+	jobs = 1
+	mpupdate = true
+	clonebundle = true
+	retryfetches = 0
+	repoverify = true
+	quiet = false
+	verbose = false
+[repo "syncstate.remote.origin"]
+	url = https://github.com/kimsavinfo/git-repo_tuto_main_manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[repo "syncstate.branch.default"]
+	remote = origin
+	merge = refs/heads/main

@@ -1,0 +1,32 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "core.precomposeunicode": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.origin.url": [
+    "https://github.com/kimsavinfo/git-repo_tuto_main_manifest"
+  ],
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ],
+  "branch.default.remote": [
+    "origin"
+  ],
+  "branch.default.merge": [
+    "refs/heads/main"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "core.bare": [
+    "true"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "core.precomposeunicode": [
+    "true"
+  ]
+}
